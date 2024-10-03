@@ -19,6 +19,7 @@ body {
 .col {
   margin: 10px;
 }
+
 p,
 h1,
 h2,
@@ -26,8 +27,9 @@ h3 {
   text-align: center;
   font-family: 'Poppins', sans-serif;
 }
+
 .section-about h1 {
-  font-size: 63px;
+  font-size: 43px;
   font-family: var(--text-style);
   font-weight: 700;
 }
@@ -75,8 +77,17 @@ img {
   line-height: 1.5;
   text-align: center;
 }
+h3.cv {
+  text-align: center;
+  font-family: var(--text-style);
+  font-weight: 700;
+  font-size: 20px;
+  color: #323643;
+  opacity: 1;
+  margin-top: 30px;
+}
 .row {
-  margin: 40px 10px;
+  margin: 20px 10px;
   background: var(--background-color);
   padding: 20px 10px;
 }
